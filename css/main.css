@@ -1,0 +1,158 @@
+body {
+    font-family: 'Source Code Pro', montserrat;
+}
+nav {
+    background-color: #091749;
+    padding: 25px 0px 25px 0px;
+    overflow: auto;
+    white-space: nowrap
+   
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #091749;
+    background-color: white;
+}
+
+.websites {
+    list-style-type: none;
+    text-align: center;
+}
+.websites ul {
+    margin: 0;
+    padding: 0;
+}
+.websites li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+.websites li:first-child {
+    margin-left: 0;
+}
+.dropdown {
+    
+}
+.dropdown .dropbtn {
+    color: white;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit; 
+    font-size: inherit;
+    text-align: center;
+}
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: #091749;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 1px;
+    z-index: 1;
+  }
+.dropdown-content a {
+    float: none;
+    color: #091749;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+.dropdown-content a:hover {
+    background-color: #091749;
+    color: white;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+main {
+    background-color: white;
+    color: #091749;
+    text-align: center;
+}
+
+main h1 {
+    margin: 50px 0;
+}
+
+main img {
+    margin: 50px 0;
+}
+main img:hover {
+    transform: scale(1.15);
+    transition: all 0.5s ease-in-out;
+}
+a {
+    color: red;
+}
+footer {
+    background-color: #091749;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.lecture {
+    display: flex;
+    flex-direction: row;
+}
+
+.exercise {
+    display: flex;
+    flex-direction: row;
+}
+
+.exam {
+    display: flex;
+    flex-direction: row;
+}
+
+.lecture div p{
+    color: black;
+    border: none;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: medium;
+    text-align: center;
+}
+
+.exercise div p{
+    color: black;
+    border: none;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: medium;
+    text-align: center;
+}
+
+.exam div p{
+    color: black;
+    border: none;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: medium;
+    text-align: center;
+}
+
+.lecture div {
+    padding: 30px;
+}
+.exam div {
+    padding: 30px;
+}
+.exercise div {
+    padding: 30px;
+}
